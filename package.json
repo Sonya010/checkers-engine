@@ -1,0 +1,29 @@
+{
+  "name": "checkers-engine",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Draughts Engine in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "tsx src/cli/index.ts"
+  },
+  "keywords": [
+    "draughts",
+    "checkers",
+    "engine"
+  ],
+  "author": "Sofiia Kozachenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "fast-check": "^3.23.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}
+
